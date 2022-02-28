@@ -1,0 +1,20 @@
+title: JustTheDocs
+
+# Build settings
+destination: ./html
+baseurl: "/html"
+url: "http://127.0.0.1:4000"
+
+include:
+  - _res
+
+exclude:
+  - _notes
+
+theme: "just-the-docs"
+
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/surg3/uc_docs"
+gh_edit_branch: "master"
+gh_edit_view_mode: "edit" # "tree" or "edit" (directly go to the editor)
